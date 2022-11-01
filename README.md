@@ -22,7 +22,7 @@
 <p><a href="https://github.com/littleduck1219/PythonProjects/tree/main/01.beginner%20project/07.hangman">07. Hangman: </a><br>
           It is a hangman that randomly picks a word and guesses the word. Every time you make a mistake with 6 lives, your life is cut and the winner is finally decided.<br>
           랜덤으로 단어를 선택하고 그 단어를 맞추는 hangman입니다. 6개의 목숨으로 틀릴때마다 목숨이 깍이며 최종적으로 승패를 가려냅니다.</p>
-<p><a href="https://github.com/littleduck1219/PythonProjects/blob/main/01.beginner%20project/04.rockpaperscissor/05.rock_paper_scissor.py">08.Caesar cipher: </a><br>
+<p><a href="https://github.com/littleduck1219/PythonProjects/tree/main/01.beginner%20project/08.Caesar%20cipher">08.Caesar cipher: </a><br>
           The Caesar cipher is a method in which the content to be encrypted is replaced with another alphabet by pushing a certain distance for each alphabet. For example, 'FRPH WR URPH' becomes 'FRPH WR URPH' if 'COME TO ROME' is encrypted with the Caesar cipher that pushes out three characters. The number of characters pushed here can be set with the sender of the password to create a more difficult password.<br>
           카이사르 암호는 암호화하고자 하는 내용을 알파벳별로 일정한 거리만큼 밀어서 다른 알파벳으로 치환하는 방식이다. 예를 들어 3글자씩 밀어내는 카이사르 암호로 'COME TO ROME'을 암호화하면 'FRPH WR URPH'가 된다. 여기서 밀어내는 글자 수는 암호를 보내는 사람과 함께 정해 더 어려운 암호를 만들 수 있다</p>
 
