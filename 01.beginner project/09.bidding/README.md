@@ -1,6 +1,6 @@
 # Bidding 경매
 
-## RUN(실행) -> https://github.com/littleduck1219/PythonProjects/tree/main/01.beginner%20project/09.bidding
+## RUN(실행) -> https://replit.com/@littleduck1219/blind-auction-start?v=1
 ## 동작방법
 
 경매인 이름을 받고 금액을 받은뒤에 추가 입찰자가 있는지 묻는다 no를 입력하면 끝나지만 yes를 입력하면 내용은 지워지며 이전 입찰자의 입찰가를 알 수 없게 되고
