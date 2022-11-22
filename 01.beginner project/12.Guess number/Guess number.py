@@ -3,7 +3,7 @@ from random import randint
 EASY_LEVEL_TURNS = 10
 HARD_LEVEL_TURNS = 5
 
-def ckeck_guess(guess, answer, turns):
+def check_guess(guess, answer, turns):
     if guess > answer:
       print("Too high")
       return turns -1
@@ -16,7 +16,7 @@ def ckeck_guess(guess, answer, turns):
       
 
 def set_difficulty():
-  level = input("Choose a difiiculty. Type 'easy' or 'hard' : ")
+  level = input("Choose a difficulty. Type 'easy' or 'hard' : ")
   if level == "easy":
     return EASY_LEVEL_TURNS
   else:
@@ -33,7 +33,7 @@ def game():
   while guess != answer:
     print(f"You have {turns} attempts remaining to guess the number.")
     guess = int(input("Make a guess : "))
-    turns = ckeck_guess(guess, answer, turns)
+    turns = check_guess(guess, answer, turns)
     if turns == 0:
       print("You've run out of guess. you lose")
       return
